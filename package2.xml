@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+http://pear.php.net/dtd/tasks-1.0.xsd
+http://pear.php.net/dtd/package-2.0
+http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Text_Spell_Audio</name>
+ <channel>pear.php.net</channel>
+ <summary>Generates a sound clip saying the contents of a string of characters.</summary>
+ <description>Joins up multiple wav file sound clips of letters/numbers being spoken, optionally adding distortion and echo. This could be use to compliment an image-based CAPTCHA to enable people who are unable to read the security image hear it read out instead.
+
+ </description>
+ <lead>
+  <name>Tom Harwood</name>
+  <user>tommeh</user>
+  <email>hellfrozeover@gmail.com</email>
+  <active>no</active>
+ </lead>
+ <lead>
+  <name>Philippe Jausions</name>
+  <user>jausions</user>
+  <email>jausions@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-10-27</date>
+ <time>10:49:00</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>This is the first release as Text_Spell_Audio
+
+ </notes>
+ <contents>
+  <dir name="/">
+   <dir name="Text">
+    <dir name="Spell">
+     <file name="Audio.php" role="php" />
+    </dir> <!-- /Text/Spell -->
+   </dir> <!-- /Text -->
+   <dir name="en">
+    <file name="0.wav" role="data" />
+    <file name="1.wav" role="data" />
+    <file name="2.wav" role="data" />
+    <file name="3.wav" role="data" />
+    <file name="4.wav" role="data" />
+    <file name="5.wav" role="data" />
+    <file name="6.wav" role="data" />
+    <file name="7.wav" role="data" />
+    <file name="8.wav" role="data" />
+    <file name="9.wav" role="data" />
+    <file name="35.wav" role="data" />
+    <file name="37.wav" role="data" />
+    <file name="38.wav" role="data" />
+    <file name="64.wav" role="data" />
+    <file name="95.wav" role="data" />
+    <file name="a.wav" role="data" />
+    <file name="b.wav" role="data" />
+    <file name="c.wav" role="data" />
+    <file name="CAPITAL.wav" role="data" />
+    <file name="d.wav" role="data" />
+    <file name="e.wav" role="data" />
+    <file name="f.wav" role="data" />
+    <file name="g.wav" role="data" />
+    <file name="h.wav" role="data" />
+    <file name="i.wav" role="data" />
+    <file name="j.wav" role="data" />
+    <file name="k.wav" role="data" />
+    <file name="l.wav" role="data" />
+    <file name="m.wav" role="data" />
+    <file name="n.wav" role="data" />
+    <file name="o.wav" role="data" />
+    <file name="p.wav" role="data" />
+    <file name="q.wav" role="data" />
+    <file name="r.wav" role="data" />
+    <file name="s.wav" role="data" />
+    <file name="t.wav" role="data" />
+    <file name="u.wav" role="data" />
+    <file name="v.wav" role="data" />
+    <file name="w.wav" role="data" />
+    <file name="x.wav" role="data" />
+    <file name="y.wav" role="data" />
+    <file name="z.wav" role="data" />
+   </dir> <!-- /en -->
+   <dir name="examples">
+    <file name="example1.php" role="doc" />
+   </dir> <!-- /examples -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-10-27</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>This is the first release as Text_Spell_Audio
+
+   </notes>
+  </release>
+ </changelog>
+</package>
