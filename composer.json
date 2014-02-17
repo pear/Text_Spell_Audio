@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "email": "hellfrozeover@gmail.com",
+            "name": "Tom Harwood",
+            "role": "Lead"
+        },
+        {
+            "email": "jausions@php.net",
+            "name": "Philippe Jausions",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Text_Spell_Audio": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Text_Spell_Audio",
+    "include-path": [
+        "./"
+    ],
+    "license": "PHP License",
+    "name": "pear/text_spell_audio",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Text_Spell_Audio",
+        "source": "https://github.com/pear/Text_Spell_Audio"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
